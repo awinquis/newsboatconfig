@@ -1,0 +1,7 @@
+
+ignore-mode "display"
+ignore-article "*" "title # \"#short\" or title # \"🔴\" or title # \"Full Video 👆\""
+refresh-on-startup no 
+
+
+browser "echo $(~/.newsboat/youtube_embed.sh %u) | xargs -r xdg-open"
