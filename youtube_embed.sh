@@ -1,5 +1,10 @@
 #!/bin/bash
 
+#This is a script that takes youtube and reddit links from your feeds and changes them based on your needs.
+#youtube links are converted into embed links to minimize distractions and to load faster
+#reddit links are opened through an alternative privacy focused front end
+
+
 # Get the YouTube watch link from the command line argument
 watch_link=$1
 
