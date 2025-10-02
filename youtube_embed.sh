@@ -2,7 +2,7 @@
 
 #This is a script that takes youtube and reddit links from your feeds and changes them based on your needs.
 #youtube links are converted into embed links to minimize distractions and to load faster
-#reddit links are opened through an alternative privacy focused front end
+#reddit links are opened in old.reddit.com
 
 
 # Get the YouTube watch link from the command line argument
@@ -23,7 +23,7 @@ elif [[ $watch_link == *"reddit.com/"* ]]; then
     path=$(echo $watch_link | cut -d '/' -f 4-)
 
     # Specify the new domain
-    new_domain="https://redlib.catsarch.com"
+    new_domain="https://old.reddit.com"
 
     # Construct the new URL with the specified domain
     new_url="$new_domain/$path"
