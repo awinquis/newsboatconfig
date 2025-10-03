@@ -1,6 +1,11 @@
 #### The goal of this project is to make the experience of opening youtube and reddit links through newsboat better
 
-# Usage:
+The script achieves this by making:
+- Youtube links open in /embed/ instead of /watch for fewer distractions and faster load time
+- Reddit links open in old.reddit.com for faster load time and fewer-pop ups
+
+---
+#### Usage:
 Linux:
 1. Make sure that you have installed Newsboat 
 2. Copy over the necessary files to the .newsboat directory
@@ -13,6 +18,6 @@ Linux:
 ---
 #### Q/A
 - Q: why are you using an RSS reader for youtube subscriptions instead of the youtube app?
-- A: Youtube sometimes doesn't show new uploads from certain channels
+- A: Youtube sometimes doesn't show new uploads from certain channels in the subscription tab
 - A: Fewer distractions
 
